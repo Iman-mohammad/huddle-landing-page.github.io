@@ -1,0 +1,130 @@
+/*universal style*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.main-title{
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+    font-weight: 600;
+    margin-bottom: 1%;
+
+}
+
+.green{
+    color: hsl(192, 100%, 9%);
+    font-size: .93rem;
+    line-height: 1.5;
+}
+
+
+.white{
+    color: hsl(192, 100%, 9%);
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-color: white;
+    border: 0;
+    width: 220px;
+    height: 45px;
+    border-radius: 25px;
+    box-shadow: 1px 3px  9px  hsl(0, 0%, 93%); 
+}
+
+.pink{
+    color: white ;
+    font-size: .9rem;
+    font-weight: 700;
+    letter-spacing: .5px;
+    background-color: hsl(322, 100%, 66%);
+    border: 0;
+    width: 250px;
+    height: 45px;
+    border-radius: 25px;
+    box-shadow: 1px 3px  9px   hsl(0, 0%, 80%);; 
+    margin-top: 2.5%;
+}
+
+/*main style*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 3rem;
+    width: 100%;
+    height: 700px;
+    background-image: url('../images/bg-hero-desktop.svg');
+    background-color: hsl(193, 100%, 96%);
+}
+
+/*header style*/
+header{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height : 100px;
+  margin-bottom: 3%;
+}
+
+/*banner style*/
+.banner{
+    display: flex;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+
+/*main-content style*/
+
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 7% 0;
+}
+
+.main-content figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15PX;
+    width: 70%;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 0  9px  hsl(0, 0%, 93%); 
+}
+
+.main-content figure img{
+    width:35%;
+    height: 25%;
+}
+
+.main-content figcaption{
+    width: 60%;
+    padding: 5% 3.5%;
+}
+
+.main-content h1{
+    font-size: 1.3rem;
+    color: hsl(192, 100%, 9%);
+}
+
+.main-content p{
+    font-size: .95rem;
+    color: hsl(208, 11%, 55%);
+    line-height: 1.5;
+    font-weight: 400;
+    width: 90%;
+}
