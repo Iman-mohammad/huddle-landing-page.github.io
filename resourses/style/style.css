@@ -57,12 +57,18 @@ figcaption{
 
 .center{
     text-align: center;
+    
 }
 
 h1{
     font-size: 1.3rem;
     color: hsl(192, 100%, 9%);
     font-family: 'Poppins', sans-serif;
+}
+
+button:hover{
+    opacity: .7;
+    cursor: pointer;
 }
 
 /*main style*/
@@ -225,17 +231,41 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 .social-media{
     display: flex;
 }
 
-.social-media li {
+.social-media li{
     margin-left: 7%;
-    height: 25px;
-    width: 25px;
+}
+
+.social-media i {
+    height: 30px;
+    width: 30px;
     border: 1px solid white;
     border-radius: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+a:hover i{
+    border: 1px solid hsl(322, 100%, 66%);
+}
+
+.social-media a:hover{
+    text-decoration: none;
+    color: hsl(322, 100%, 66%);
+}
+
+.copy-right a{
+    color: hsl(322, 100%, 66%);
+}
+
+.copy-right a:hover{
+    font-weight: 600;
 }
