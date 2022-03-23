@@ -254,7 +254,7 @@ header{
     bottom: -100px;
     padding: 2rem;
     background-color: white;
-    box-shadow: 0 0  9px  hsl(0, 0%, 90%);
+    box-shadow: 0 -7px 5px -5px hsl(0, 0% , 93%);
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -462,13 +462,6 @@ a:hover i{
   
     .copy-right{
         text-align: center;
-    }
-    .copy-right a{
-        color: hsl(322, 100%, 66%);
-    }
-    
-    .copy-right a:hover{
-        font-weight: 600;
     }
 }
 
