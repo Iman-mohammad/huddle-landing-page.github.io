@@ -51,15 +51,10 @@ This project (Huddle landing page with alternating feature blocks), designed to 
     box-shadow: 1px 3px  9px  hsl(0, 0%, 90%); 
     }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
 ## Useful resources
 
-- [MDN](htt:ps://developer.mozilla.org/en-US/)
+- [MDN](https://developer.mozilla.org/en-US/)
 - [W3School](https://www.w3schools.com) 
 - [stackoverflow](https://stackoverflow.com)
 
