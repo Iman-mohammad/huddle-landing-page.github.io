@@ -433,6 +433,7 @@ a:hover i{
         width: 100%;
         margin: 0;
         padding: 0;
+ 
     }
 
     li{
@@ -444,6 +445,8 @@ a:hover i{
         justify-content: center;
         align-items: center;
         width: 100%;
+        margin-top: 15%;
+       
     }
     
     .social-media li{
