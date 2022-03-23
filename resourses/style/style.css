@@ -9,6 +9,7 @@ body{
     font-weight: 600;
     padding: 0;
     margin: 0;
+    max-width: 1440px;
 }
 
 .main-title{
@@ -101,8 +102,55 @@ header{
     width: 100%;
 }
 
-/*main-content style*/
+.banner-section{
+    width: 40%;
+}
 
+.banner-figure{
+    width: 55%;
+    margin-left: 5%;
+}
+
+.banner-figure img{
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width:850px) {
+    main{
+    background-image: url('../images/bg-hero-mobile.svg');
+    background-position: center;
+    background-size: cover; 
+    height: 1050px;
+    align-items: baseline;
+    justify-content: flex-start;
+    padding: 3rem;
+    
+    }
+    
+
+
+    .banner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .banner-section{
+        width: 85%;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    
+    .banner-figure{
+        width: 85%;
+        margin-left:0;
+        
+    }
+    
+
+}
+
+/*main-content style*/
 .main-content{
     display: flex;
     align-items: center;
@@ -141,10 +189,34 @@ header{
     width: 90%;
 }
 
+@media screen and (max-width:850px) {
+    
+    .main-content figure{
+        align-items: baseline;
+        flex-wrap: wrap-reverse;
+        width: 95%;
+    }
+    
+    .main-content figure img{
+        width:95%;
+        height: 35%;
+    }
+    
+    .main-content figcaption{
+        width: 95%;
+        padding: 5%;
+        text-align: center;
+    }
+
+    .main-content p{
+        width: 100%;
+    }
+}
+
 /*sub-content*/
 .sub-content{
     width: 50%;
-    height: 275px;
+    height: 250px;
     position: relative;
     bottom: -100px;
     padding: 2rem;
@@ -158,6 +230,25 @@ header{
     border-radius: 15PX;
 }
 
+.extra-pink{
+    height: 70px;
+    border-radius: 50px;
+    width: 300px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+@media screen and (max-width:850px) {
+    
+    .sub-content{
+        height: 230px;
+    }
+}
+
+@media screen and (max-width:685px){
+    .sub-content{
+        width: 85%;
+    }
+}
 
 /*footer style*/
 footer{
@@ -269,3 +360,67 @@ a:hover i{
 .copy-right a:hover{
     font-weight: 600;
 }
+
+@media screen and (max-width:785px) {
+
+    footer{
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 11rem 2.5rem 1.5rem;
+   
+    }
+    
+    .footer-content{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0;
+    }
+    
+    
+    .footer-left{
+        width: 95%;
+ 
+    }
+    
+    
+    /*right side footer style*/
+    .footer-right{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        padding:0;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    ul{
+        width: 50%;
+        margin-bottom: 0;
+
+    }
+    
+
+    .social-media{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .social-media li{
+        margin-left: 5%;
+    }
+  
+    .copy-right a{
+        color: hsl(322, 100%, 66%);
+    }
+    
+    .copy-right a:hover{
+        font-weight: 600;
+    }
+}
+
