@@ -55,8 +55,8 @@ This project (Huddle landing page with alternating feature blocks), designed to 
 ## Useful resources
 
 - [MDN](https://developer.mozilla.org/en-US/)
-- [W3School](https://www.w3schools.com) 
-- [stackoverflow](https://stackoverflow.com)
+- [W3school](https://www.w3schools.com) 
+- [StackOverflow](https://stackoverflow.com)
 
 ## Author
 
